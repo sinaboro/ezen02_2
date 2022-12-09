@@ -1,0 +1,5 @@
+1670201624933	Rename resource 'Hello.jsp'
+1670201658392	Rename resource 'index.jsp'
+1670201754549	Move 'Hello.jsp' to 'WEB-INF'
+1670201935159	Move 'Hello2.jsp' to 'webapp'
+1670202115751	Move 'Hello2.jsp' to 'test'

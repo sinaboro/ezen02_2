@@ -1,0 +1,25 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+<%@ page import="com.saeyan.javabeans.*" %>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+<jsp:useBean id="member" class="MemberBean"/>
+
+<h2>빈 생성 전</h2>
+<%= member.getName() %>
+<%= member.getUserid() %>
+------------------------------------------
+<%
+	member.setName("홍길동");
+	member.setUserid("abcd");
+%>
+<h2>빈 생성 후</h2>
+<%= member.getName() %>
+<%= member.getUserid() %>
+</body>
+</html>

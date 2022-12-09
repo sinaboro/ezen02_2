@@ -1,0 +1,7 @@
+package com.ezen.ex01;
+
+@
+public class MemberBean {
+	private String name;
+	private String userid;
+}

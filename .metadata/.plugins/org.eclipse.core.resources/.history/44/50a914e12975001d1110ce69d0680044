@@ -1,0 +1,38 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+<%!
+	
+	public int abs(int n){
+		return n>0? n : n*-1;
+	}
+%>
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+<%
+	String str = "안녕하세요";
+	int b= 5;
+
+	if(b>2){
+		int a=0;
+		a= 10;
+		System.out.println(" A : " +a);
+		
+	}
+	System.out.println("-------------------------");
+	System.out.println(a);
+	System.out.println(abs(b));
+%>
+<%
+
+	System.out.println("-------------------------");
+	System.out.println(str);
+	System.out.println(abs(b));
+%>
+</body>
+</html>

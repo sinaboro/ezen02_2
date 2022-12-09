@@ -1,0 +1,16 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+	<form action="">
+		<button >주소검색</button><br>
+		우편번호 : <input type="text" name = "zipNo" size="30"><br>
+		주&nbsp;&nbsp;소 : <input type="text" name = "addr" size="80">
+	</form>
+</body>
+</html>

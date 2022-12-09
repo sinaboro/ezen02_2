@@ -1,0 +1,27 @@
+
+12월 05, 2022 09:56:17.293 NEW SESSION
+12월 05, 2022 09:56:17.293 [6316:1196:1205/095617.290:ERROR:device_event_log_impl.cc(215)] [09:56:17.290] Bluetooth: bluetooth_adapter_winrt.cc:1074 Getting Default Adapter failed.
+12월 05, 2022 15:47:45.274 [9448:1072:1205/154745.273:ERROR:device_event_log_impl.cc(215)] [15:47:45.273] Bluetooth: bluetooth_adapter_winrt.cc:1074 Getting Default Adapter failed.
+
+12월 05, 2022 17:34:28.809 NEW SESSION
+12월 05, 2022 17:34:28.809 [9308:10164:1205/173428.807:ERROR:device_event_log_impl.cc(215)] [17:34:28.807] Bluetooth: bluetooth_adapter_winrt.cc:1074 Getting Default Adapter failed.
+12월 05, 2022 17:48:59.347 [9308:10164:1205/174859.347:ERROR:interface_endpoint_client.cc(694)] Message 0 rejected by interface blink.mojom.WidgetHost
+
+12월 07, 2022 17:28:45.841 NEW SESSION
+12월 07, 2022 17:28:45.841 [1352:5452:1207/172845.838:ERROR:device_event_log_impl.cc(215)] [17:28:45.837] Bluetooth: bluetooth_adapter_winrt.cc:1074 Getting Default Adapter failed.
+12월 07, 2022 17:29:28.951 [1480:9016:1207/172928.951:ERROR:device_event_log_impl.cc(215)] [17:29:28.952] Bluetooth: bluetooth_adapter_winrt.cc:1074 Getting Default Adapter failed.
+
+12월 07, 2022 17:31:13.513 NEW SESSION
+12월 07, 2022 17:31:13.513 [6800:5880:1207/173113.511:ERROR:device_event_log_impl.cc(215)] [17:31:13.511] Bluetooth: bluetooth_adapter_winrt.cc:1074 Getting Default Adapter failed.
+
+12월 08, 2022 16:35:31.922 NEW SESSION
+12월 08, 2022 16:35:31.923 [2956:8808:1208/163531.918:ERROR:device_event_log_impl.cc(215)] [16:35:31.917] Bluetooth: bluetooth_adapter_winrt.cc:1074 Getting Default Adapter failed.
+
+12월 09, 2022 09:41:56.538 NEW SESSION
+12월 09, 2022 09:41:56.538 [4948:2272:1209/094156.536:ERROR:device_event_log_impl.cc(215)] [09:41:56.536] Bluetooth: bluetooth_adapter_winrt.cc:1074 Getting Default Adapter failed.
+12월 09, 2022 09:41:56.542 [4948:2272:1209/094156.542:ERROR:device_event_log_impl.cc(215)] [09:41:56.542] USB: usb_device_handle_win.cc:1045 Failed to read descriptor from node connection: 시스템에 부착된 장치가 작동하지 않습니다. (0x1F)
+12월 09, 2022 09:41:56.543 [4948:2272:1209/094156.542:ERROR:usb_descriptors.cc(117)] Failed to read configuration descriptor.
+12월 09, 2022 09:41:56.543 [4948:2272:1209/094156.542:ERROR:usb_descriptors.cc(100)] Failed to read all configuration descriptors. Expected 1, got 0.
+12월 09, 2022 09:41:56.543 [4948:2272:1209/094156.542:ERROR:device_event_log_impl.cc(215)] [09:41:56.542] USB: usb_device_win.cc:96 Failed to read descriptors from \\?\usb#vid_0000&pid_3825#6&369d9333&0&4#{a5dcbf10-6530-11d2-901f-00c04fb951ed}.
+12월 09, 2022 15:28:41.688 [4948:2272:1209/152841.688:ERROR:interface_endpoint_client.cc(694)] Message 0 rejected by interface blink.mojom.WidgetHost
+12월 09, 2022 15:41:44.816 [4948:2272:1209/154144.815:ERROR:interface_endpoint_client.cc(694)] Message 1 rejected by interface blink.mojom.WidgetHost
