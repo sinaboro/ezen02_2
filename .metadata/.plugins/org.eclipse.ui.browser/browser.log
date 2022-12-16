@@ -25,3 +25,47 @@
 12월 09, 2022 09:41:56.543 [4948:2272:1209/094156.542:ERROR:device_event_log_impl.cc(215)] [09:41:56.542] USB: usb_device_win.cc:96 Failed to read descriptors from \\?\usb#vid_0000&pid_3825#6&369d9333&0&4#{a5dcbf10-6530-11d2-901f-00c04fb951ed}.
 12월 09, 2022 15:28:41.688 [4948:2272:1209/152841.688:ERROR:interface_endpoint_client.cc(694)] Message 0 rejected by interface blink.mojom.WidgetHost
 12월 09, 2022 15:41:44.816 [4948:2272:1209/154144.815:ERROR:interface_endpoint_client.cc(694)] Message 1 rejected by interface blink.mojom.WidgetHost
+12월 09, 2022 18:20:45.302 [9172:3276:1209/182045.301:ERROR:device_event_log_impl.cc(215)] [18:20:45.294] Bluetooth: bluetooth_adapter_winrt.cc:1074 Getting Default Adapter failed.
+12월 09, 2022 18:20:45.310 [9172:3276:1209/182045.309:ERROR:device_event_log_impl.cc(215)] [18:20:45.302] USB: usb_device_handle_win.cc:1045 Failed to read descriptor from node connection: 시스템에 부착된 장치가 작동하지 않습니다. (0x1F)
+12월 09, 2022 18:20:45.310 [9172:3276:1209/182045.309:ERROR:usb_descriptors.cc(117)] Failed to read configuration descriptor.
+12월 09, 2022 18:20:45.310 [9172:3276:1209/182045.309:ERROR:usb_descriptors.cc(100)] Failed to read all configuration descriptors. Expected 1, got 0.
+12월 09, 2022 18:20:45.310 [9172:3276:1209/182045.309:ERROR:device_event_log_impl.cc(215)] [18:20:45.302] USB: usb_device_win.cc:96 Failed to read descriptors from \\?\usb#vid_0000&pid_3825#6&369d9333&0&4#{a5dcbf10-6530-11d2-901f-00c04fb951ed}.
+
+12월 12, 2022 10:49:34.256 NEW SESSION
+12월 12, 2022 10:49:34.257 [6676:7116:1212/104934.254:ERROR:device_event_log_impl.cc(215)] [10:49:34.255] Bluetooth: bluetooth_adapter_winrt.cc:1074 Getting Default Adapter failed.
+
+12월 12, 2022 18:24:10.919 NEW SESSION
+12월 12, 2022 18:24:10.919 [5628:8092:1212/182410.917:ERROR:device_event_log_impl.cc(215)] [18:24:10.916] Bluetooth: bluetooth_adapter_winrt.cc:1074 Getting Default Adapter failed.
+12월 12, 2022 18:24:11.511 [5628:8092:1212/182411.511:ERROR:interface_endpoint_client.cc(694)] Message 0 rejected by interface blink.mojom.WidgetHost
+12월 12, 2022 19:05:03.162 [5628:8092:1212/190503.162:ERROR:interface_endpoint_client.cc(694)] Message 1 rejected by interface blink.mojom.WidgetHost
+12월 12, 2022 19:05:03.163 [5628:8092:1212/190503.162:ERROR:interface_endpoint_client.cc(694)] Message 1 rejected by interface blink.mojom.WidgetHost
+12월 12, 2022 19:06:18.502 [5628:8092:1212/190618.502:ERROR:device_event_log_impl.cc(215)] [19:06:18.502] Bluetooth: bluetooth_adapter_winrt.cc:1074 Getting Default Adapter failed.
+12월 12, 2022 19:40:02.889 [5628:8092:1212/194002.888:ERROR:interface_endpoint_client.cc(694)] Message 1 rejected by interface blink.mojom.WidgetHost
+12월 12, 2022 20:24:51.60 [8024:4500:1212/202451.060:ERROR:device_event_log_impl.cc(215)] [20:24:51.059] Bluetooth: bluetooth_adapter_winrt.cc:1074 Getting Default Adapter failed.
+
+12월 13, 2022 11:09:28.404 NEW SESSION
+12월 13, 2022 11:09:28.404 [8092:4364:1213/110928.401:ERROR:device_event_log_impl.cc(215)] [11:09:28.402] Bluetooth: bluetooth_adapter_winrt.cc:1074 Getting Default Adapter failed.
+12월 13, 2022 11:28:45.917 [libprotobuf ERROR ..\..\third_party\protobuf\src\google\protobuf\message_lite.cc:133] Can't parse message of type "safe_browsing.ClientDownloadRequest" because it is missing required fields: (cannot determine missing fields for lite message)
+
+12월 14, 2022 10:04:32.78 NEW SESSION
+12월 14, 2022 10:04:32.79 [4292:7964:1214/100432.075:ERROR:device_event_log_impl.cc(215)] [10:04:32.075] Bluetooth: bluetooth_adapter_winrt.cc:1074 Getting Default Adapter failed.
+12월 14, 2022 10:11:06.270 [2892:6420:1214/101106.269:ERROR:device_event_log_impl.cc(215)] [10:11:06.270] Bluetooth: bluetooth_adapter_winrt.cc:1074 Getting Default Adapter failed.
+12월 14, 2022 10:11:50.906 [6288:9120:1214/101150.906:ERROR:device_event_log_impl.cc(215)] [10:11:50.906] USB: usb_device_handle_win.cc:1045 Failed to read descriptor from node connection: 시스템에 부착된 장치가 작동하지 않습니다. (0x1F)
+12월 14, 2022 10:11:50.907 [6288:9120:1214/101150.906:ERROR:usb_descriptors.cc(117)] Failed to read configuration descriptor.
+12월 14, 2022 10:11:50.907 [6288:9120:1214/101150.906:ERROR:usb_descriptors.cc(100)] Failed to read all configuration descriptors. Expected 1, got 0.
+12월 14, 2022 10:11:50.908 [6288:9120:1214/101150.906:ERROR:device_event_log_impl.cc(215)] [10:11:50.906] USB: usb_device_win.cc:96 Failed to read descriptors from \\?\usb#vid_0000&pid_3825#6&369d9333&0&4#{a5dcbf10-6530-11d2-901f-00c04fb951ed}.
+12월 14, 2022 10:11:50.908 [6288:9120:1214/101150.906:ERROR:device_event_log_impl.cc(215)] [10:11:50.906] Bluetooth: bluetooth_adapter_winrt.cc:1074 Getting Default Adapter failed.
+12월 14, 2022 10:13:08.358 [7104:4260:1214/101308.358:ERROR:device_event_log_impl.cc(215)] [10:13:08.357] Bluetooth: bluetooth_adapter_winrt.cc:1074 Getting Default Adapter failed.
+12월 14, 2022 15:51:16.51 [2960:7520:1214/155116.051:ERROR:device_event_log_impl.cc(215)] [15:51:16.051] Bluetooth: bluetooth_adapter_winrt.cc:1074 Getting Default Adapter failed.
+12월 14, 2022 16:50:27.516 [5264:9976:1214/165027.516:ERROR:device_event_log_impl.cc(215)] [16:50:27.516] Bluetooth: bluetooth_adapter_winrt.cc:1074 Getting Default Adapter failed.
+12월 14, 2022 16:59:14.58 [7504:4836:1214/165914.057:ERROR:device_event_log_impl.cc(215)] [16:59:14.057] Bluetooth: bluetooth_adapter_winrt.cc:1074 Getting Default Adapter failed.
+
+12월 15, 2022 13:01:19.136 NEW SESSION
+12월 15, 2022 13:01:19.136 [984:1012:1215/130119.134:ERROR:device_event_log_impl.cc(215)] [13:01:19.134] USB: usb_device_handle_win.cc:1045 Failed to read descriptor from node connection: 시스템에 부착된 장치가 작동하지 않습니다. (0x1F)
+12월 15, 2022 13:01:19.137 [984:1012:1215/130119.134:ERROR:usb_descriptors.cc(117)] Failed to read configuration descriptor.
+12월 15, 2022 13:01:19.137 [984:1012:1215/130119.134:ERROR:usb_descriptors.cc(100)] Failed to read all configuration descriptors. Expected 1, got 0.
+12월 15, 2022 13:01:19.138 [984:1012:1215/130119.134:ERROR:device_event_log_impl.cc(215)] [13:01:19.134] USB: usb_device_win.cc:96 Failed to read descriptors from \\?\usb#vid_0000&pid_3825#6&369d9333&0&4#{a5dcbf10-6530-11d2-901f-00c04fb951ed}.
+12월 15, 2022 13:01:19.138 [984:1012:1215/130119.134:ERROR:device_event_log_impl.cc(215)] [13:01:19.134] Bluetooth: bluetooth_adapter_winrt.cc:1074 Getting Default Adapter failed.
+
+12월 15, 2022 15:07:00.802 NEW SESSION
+12월 15, 2022 15:07:00.802 [3084:7204:1215/150700.799:ERROR:device_event_log_impl.cc(215)] [15:07:00.799] Bluetooth: bluetooth_adapter_winrt.cc:1074 Getting Default Adapter failed.
