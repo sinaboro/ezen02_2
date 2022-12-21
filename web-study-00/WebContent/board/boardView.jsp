@@ -43,6 +43,7 @@
 			onclick="location.href='BoardServlet?command=board_list'"> 
 		<input type="button" value="게시글 등록"
 			onclick="location.href='BoardServlet?command=board_write_form'">
+		
 		<input type="button" value="댓글 등록"
 			onclick="location.href='BoardServlet?command=board_reply_form&num=${board.num}'">
 	</div>

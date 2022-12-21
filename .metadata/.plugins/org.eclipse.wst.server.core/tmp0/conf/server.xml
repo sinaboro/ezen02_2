@@ -102,10 +102,11 @@
 					Note: The pattern used is equivalent to using pattern="common" -->
 				<Valve className="org.apache.catalina.valves.AccessLogValve" directory="logs" pattern="%h %l %u %t &quot;%r&quot; %s %b" prefix="localhost_access_log" suffix=".txt"/>
 
-				
+
 				<Context docBase="C:\Works2\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\ROOT" path="" reloadable="false"/><Context docBase="C:\Works2\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\ex02" path="/controller" reloadable="true" source="org.eclipse.jst.jee.server:ex02"/>
+
 				
-				<Context docBase="C:\Works2\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\web-study-11" path="/web-study-11" reloadable="true" source="org.eclipse.jst.jee.server:web-study-11">
+				<Context docBase="C:\Works2\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\web-study-00" path="/web-study-00" reloadable="true" source="org.eclipse.jst.jee.server:web-study-00">
 					<Resource auth="Container" driverClassName="oracle.jdbc.OracleDriver" maxIdle="10" maxTotal="20" maxWaitMillis="-1" name="jdbc/myoracle" password="1234" type="javax.sql.DataSource" url="jdbc:oracle:thin:@127.0.0.1:1521:xe" username="scott"/>
 				</Context>
 			</Host>

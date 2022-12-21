@@ -46,7 +46,6 @@ public class BoardDAO {
 				bVo.setBgroup(rs.getInt("bgroup"));
 				bVo.setBsequence(rs.getInt("bsequence"));
 				bVo.setBlevel(rs.getInt("blevel"));
-				bVo.setBavailable(rs.getInt("bavailable"));
 				list.add(bVo);
 			}
 		} catch (SQLException e) {
@@ -58,9 +57,11 @@ public class BoardDAO {
 	}
 
 	public void insertBoard(BoardVO bVo) {
-		String sql = "insert into board("
-				+ "num, name, email, pass, title, content,BGROUP,BSEQUENCE, BLEVEL,BAVAILABLE ) "
-				+ "values(board_seq.nextval, ?, ?, ?, ?, ?,(select nvl((max(BGROUP)+1),0) from board),0,0,1)";
+//		String sql = "insert into board("
+//				+ "num, name, email, pass, title, content,BGROUP,BSEQUENCE, BLEVEL ) "
+//				+ "values(seq_board.nextval, ?, ?, ?, ?, ?,(select nvl((max(BGROUP)+1),0) from board),0,0)";
+		String sql = "insert into board(num, name, email, pass, title, content, BGROUP, BSEQUENCE,  BLEVEL )"
+				+ " values(seq_board.nextval, ?, ?, ?, ?, ?, (select nvl( (max(BGROUP)+1),0) from board), 0, 0)";
 		Connection conn = null;
 		PreparedStatement pstmt = null;
 		try {
@@ -81,8 +82,8 @@ public class BoardDAO {
 
 	public void insertReplyBoard(BoardVO bVo) {
 		String sql = "insert into board("
-				+ "num, name, email, pass, title, content,BGROUP,BSEQUENCE, BLEVEL,BAVAILABLE ) "
-				+ "values(board_seq.nextval, ?, ?, ?, ?, ?,?,?,?,1)";
+				+ "num, name, email, pass, title, content,BGROUP,BSEQUENCE, BLEVEL) "
+				+ "values(seq_board.nextval, ?, ?, ?, ?, ?,?,?,?)";
 		Connection conn = null;
 		PreparedStatement pstmt = null;
 		try {
@@ -146,7 +147,6 @@ public class BoardDAO {
 				bVo.setBgroup(rs.getInt("bgroup"));
 				bVo.setBsequence(rs.getInt("bsequence"));
 				bVo.setBlevel(rs.getInt("blevel"));
-				bVo.setBavailable(rs.getInt("bavailable")); //BAVAILABLE
 			}
 		} catch (Exception e) {
 			e.printStackTrace();

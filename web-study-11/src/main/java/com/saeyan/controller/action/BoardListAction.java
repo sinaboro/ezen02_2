@@ -19,9 +19,9 @@ public class BoardListAction implements Action{
 		BoardDAO dao = BoardDAO.getInstance();
 		List<BoardVO> list = dao.selectAllBoards();
 		
-		System.out.println("list :  " + list);
+	//	System.out.println("list :  " + list);
 		
-		request.setAttribute("boardlist", list);
+		request.setAttribute("boardList", list);
 		RequestDispatcher dis = 
 				request.getRequestDispatcher("/board/boardList.jsp");
 		dis.forward(request, response);

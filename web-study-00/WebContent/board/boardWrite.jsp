@@ -5,7 +5,7 @@
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-<title>Insert title here</title>
+<title>BoardWirte</title>
 <link rel="stylesheet" type="text/css" href="css/shopping.css">
 <script type="text/javascript" src="script/board.js"></script>
 </head>
@@ -21,8 +21,7 @@
 				</tr>
 				<tr>
 					<th>비밀번호</th>
-					<td><input type="password" name="pass"> * 필수 (게시물 수정
-						삭제시 필요합니다.)</td>
+					<td><input type="password" name="pass"> * 필수 (게시물 수정 삭제시 필요합니다.)</td>
 				</tr>
 				<tr>
 					<th>이메일</th>

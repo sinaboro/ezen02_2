@@ -69,3 +69,18 @@
 
 12월 15, 2022 15:07:00.802 NEW SESSION
 12월 15, 2022 15:07:00.802 [3084:7204:1215/150700.799:ERROR:device_event_log_impl.cc(215)] [15:07:00.799] Bluetooth: bluetooth_adapter_winrt.cc:1074 Getting Default Adapter failed.
+
+12월 20, 2022 09:44:59.204 NEW SESSION
+12월 20, 2022 09:44:59.204 [3364:1524:1220/094459.200:ERROR:device_event_log_impl.cc(215)] [09:44:59.200] Bluetooth: bluetooth_adapter_winrt.cc:1074 Getting Default Adapter failed.
+12월 20, 2022 10:30:03.913 [3364:1524:1220/103003.913:ERROR:device_event_log_impl.cc(215)] [10:30:03.912] USB: usb_service_win.cc:104 SetupDiGetDeviceProperty({{A45C254E-DF1C-4EFD-8020-67D146A850E0}, 6}) failed: 요소가 없습니다. (0x490)
+12월 20, 2022 16:25:09.731 [3364:1524:1220/162509.730:ERROR:device_event_log_impl.cc(215)] [16:25:09.731] Bluetooth: bluetooth_adapter_winrt.cc:1074 Getting Default Adapter failed.
+12월 20, 2022 16:30:00.115 [3364:9304:1220/163000.115:ERROR:leveldb_factory.cc(88)] Failed to open LevelDB database from C:\Users\222\AppData\Local\Google\Chrome\User Data\Default\IndexedDB\https_www.youtube.com_0.indexeddb.leveldb,IO error: C:\Users\222\AppData\Local\Google\Chrome\User Data\Default\IndexedDB\https_www.youtube.com_0.indexeddb.leveldb/LOCK: File currently in use. (ChromeMethodBFE: 15::LockFile::2)
+12월 20, 2022 16:30:02.129 [3364:9304:1220/163002.129:ERROR:leveldb_factory.cc(88)] Failed to open LevelDB database from C:\Users\222\AppData\Local\Google\Chrome\User Data\Default\IndexedDB\https_www.youtube.com_0.indexeddb.leveldb,IO error: C:\Users\222\AppData\Local\Google\Chrome\User Data\Default\IndexedDB\https_www.youtube.com_0.indexeddb.leveldb/LOCK: File currently in use. (ChromeMethodBFE: 15::LockFile::2)
+12월 20, 2022 16:30:04.151 [3364:11964:1220/163004.151:ERROR:leveldb_factory.cc(88)] Failed to open LevelDB database from C:\Users\222\AppData\Local\Google\Chrome\User Data\Default\IndexedDB\https_www.youtube.com_0.indexeddb.leveldb,IO error: C:\Users\222\AppData\Local\Google\Chrome\User Data\Default\IndexedDB\https_www.youtube.com_0.indexeddb.leveldb/LOCK: File currently in use. (ChromeMethodBFE: 15::LockFile::2)
+12월 20, 2022 16:30:06.154 [3364:11964:1220/163006.154:ERROR:leveldb_factory.cc(88)] Failed to open LevelDB database from C:\Users\222\AppData\Local\Google\Chrome\User Data\Default\IndexedDB\https_www.youtube.com_0.indexeddb.leveldb,IO error: C:\Users\222\AppData\Local\Google\Chrome\User Data\Default\IndexedDB\https_www.youtube.com_0.indexeddb.leveldb/LOCK: File currently in use. (ChromeMethodBFE: 15::LockFile::2)
+12월 20, 2022 16:30:08.159 [3364:11964:1220/163008.159:ERROR:leveldb_factory.cc(88)] Failed to open LevelDB database from C:\Users\222\AppData\Local\Google\Chrome\User Data\Default\IndexedDB\https_www.youtube.com_0.indexeddb.leveldb,IO error: C:\Users\222\AppData\Local\Google\Chrome\User Data\Default\IndexedDB\https_www.youtube.com_0.indexeddb.leveldb/LOCK: File currently in use. (ChromeMethodBFE: 15::LockFile::2)
+12월 20, 2022 16:30:10.172 [3364:11964:1220/163010.172:ERROR:leveldb_factory.cc(88)] Failed to open LevelDB database from C:\Users\222\AppData\Local\Google\Chrome\User Data\Default\IndexedDB\https_www.youtube.com_0.indexeddb.leveldb,IO error: C:\Users\222\AppData\Local\Google\Chrome\User Data\Default\IndexedDB\https_www.youtube.com_0.indexeddb.leveldb/LOCK: File currently in use. (ChromeMethodBFE: 15::LockFile::2)
+12월 20, 2022 17:03:06.84 [11780:5564:1220/170306.084:ERROR:device_event_log_impl.cc(215)] [17:03:06.085] Bluetooth: bluetooth_adapter_winrt.cc:1074 Getting Default Adapter failed.
+
+12월 21, 2022 09:40:32.848 NEW SESSION
+12월 21, 2022 09:40:32.848 [1788:1436:1221/094032.846:ERROR:device_event_log_impl.cc(215)] [09:40:32.845] Bluetooth: bluetooth_adapter_winrt.cc:1074 Getting Default Adapter failed.

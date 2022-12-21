@@ -14,34 +14,9 @@ public class BoardVO {
 	private int bgroup;
 	private int bsequence;
 	private int blevel;
-	private int bavailable;
 	
 	public int getNum() {
 		return num;
-	}
-	public int getBgroup() {
-		return bgroup;
-	}
-	public void setBgroup(int bgroup) {
-		this.bgroup = bgroup;
-	}
-	public int getBsequence() {
-		return bsequence;
-	}
-	public void setBsequence(int bsequence) {
-		this.bsequence = bsequence;
-	}
-	public int getBlevel() {
-		return blevel;
-	}
-	public void setBlevel(int blevel) {
-		this.blevel = blevel;
-	}
-	public int getBavailable() {
-		return bavailable;
-	}
-	public void setBavailable(int bavailable) {
-		this.bavailable = bavailable;
 	}
 	public void setNum(int num) {
 		this.num = num;
@@ -88,12 +63,31 @@ public class BoardVO {
 	public void setWritedate(Timestamp writedate) {
 		this.writedate = writedate;
 	}
+	public int getBgroup() {
+		return bgroup;
+	}
+	public void setBgroup(int bgroup) {
+		this.bgroup = bgroup;
+	}
+	public int getBsequence() {
+		return bsequence;
+	}
+	public void setBsequence(int bsequence) {
+		this.bsequence = bsequence;
+	}
+	public int getBlevel() {
+		return blevel;
+	}
+	public void setBlevel(int blevel) {
+		this.blevel = blevel;
+	}
 	@Override
 	public String toString() {
 		return "BoardVO [num=" + num + ", name=" + name + ", email=" + email + ", pass=" + pass + ", title=" + title
 				+ ", content=" + content + ", readcount=" + readcount + ", writedate=" + writedate + ", bgroup="
-				+ bgroup + ", bsequence=" + bsequence + ", blevel=" + blevel + ", bavailable=" + bavailable + "]";
+				+ bgroup + ", bsequence=" + bsequence + ", blevel=" + blevel + "]";
 	}
+	
 	
 	
 }

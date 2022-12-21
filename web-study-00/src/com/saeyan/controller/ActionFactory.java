@@ -26,18 +26,14 @@ public class ActionFactory {
 
 	public Action getAction(String command) {
 		Action action = null;
-		System.out.println("ActionFactory :" + command);
+		System.out.println("ActionFactory :" + command);  //board_reply_form
 		/* 추가된 부분 */
 		if (command.equals("board_list")) {
 			action = new BoardListAction();
 		} else if (command.equals("board_write_form")) {
 			action = new BoardWriteFormAction();
-		} else if (command.equals("board_reply_form")) {
-			action = new BoardReplyFormAction();
 		} else if (command.equals("board_write")) {
 			action = new BoardWriteAction();
-		} else if (command.equals("board_reply")) {
-			action = new BoardReplyAction();
 		} else if (command.equals("board_view")) {
 			action = new BoardViewAction();
 		} else if (command.equals("board_check_pass_form")) {
@@ -50,6 +46,10 @@ public class ActionFactory {
 			action = new BoardUpdateAction();
 		} else if (command.equals("board_delete")) {
 			action = new BoardDeleteAction();
+		}else if (command.equals("board_reply_form")) {  //board_reply
+			action = new BoardReplyFormAction();
+		}else if (command.equals("board_reply")) {
+			action = new BoardReplyAction();
 		}
 		return action;
 	}
