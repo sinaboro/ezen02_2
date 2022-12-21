@@ -32,7 +32,7 @@
 			<c:forEach var="board" items="${boardList }">
 				<tr class="record">
 					<td>${board.num }</td> 
-					<c:if test="${board.blevel ==0 }">
+					<c:if test="${board.blevel == 0 }">
 						<td><a href="BoardServlet?command=board_view&num=${board.num}">
 								${board.title } </a></td>
 						<td>${board.name}</td>
@@ -40,16 +40,16 @@
 						<td>${board.readcount}</td>
 					</c:if>
 					
-					<c:if test="${vo.blevel>0}">
+				 <!-- 	<c:if test="${vo.blevel>0}">
 		              <c:forEach begin="1" end="${vo.blevel}">
 		                 <span style="padding-left: 10px"></span>
 		              </c:forEach>            
-            		</c:if>
+            		</c:if>  -->
             		
 					<c:if test="${board.blevel >0 }">
 						<td><a href="BoardServlet?command=board_view&num=${board.num}">
 						<c:forEach begin="1" end="${board.blevel}">
-							<span style="padding-left: 10px">
+							<span style="padding-left: 15px">
 							</span>
 						</c:forEach> 
 								[RE]${board.title }

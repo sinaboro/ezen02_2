@@ -106,10 +106,8 @@
 				<Context docBase="ex02" path="/controller" reloadable="true" source="org.eclipse.jst.jee.server:ex02"/>
 
 				
-				<Context docBase="web-study-00" path="/web-study-00" reloadable="true" source="org.eclipse.jst.jee.server:web-study-00">
-					<Resource auth="Container" driverClassName="oracle.jdbc.OracleDriver" maxIdle="10" maxTotal="20" maxWaitMillis="-1" name="jdbc/myoracle" password="1234" type="javax.sql.DataSource" url="jdbc:oracle:thin:@127.0.0.1:1521:xe" username="scott"/>
-				</Context>
-			</Host>
+				
+			<Context docBase="web-study-11_댓글구현" path="/web-study-11_댓글구현" reloadable="true" source="org.eclipse.jst.jee.server:web-study-11_댓글구현"/></Host>
 		</Engine>
 	</Service>
 </Server>

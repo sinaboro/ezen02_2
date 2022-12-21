@@ -23,8 +23,9 @@ public class BoardDAO {
 	}
 
 	public List<BoardVO> selectAllBoards() {
-		//String sql = "select * from board order by num desc ,BSEQUENCE asc ";
-		String sql = "select * from board order by BGROUP desc ,BSEQUENCE asc ";
+
+		String sql = "select * from board order by bgroup desc ,bsequence asc ";
+		
 		List<BoardVO> list = new ArrayList<BoardVO>();
 		Connection conn = null;
 		Statement stmt = null;
@@ -43,9 +44,11 @@ public class BoardDAO {
 				bVo.setContent(rs.getString("content"));
 				bVo.setReadcount(rs.getInt("readcount"));
 				bVo.setWritedate(rs.getTimestamp("writedate"));
+				
 				bVo.setBgroup(rs.getInt("bgroup"));
 				bVo.setBsequence(rs.getInt("bsequence"));
 				bVo.setBlevel(rs.getInt("blevel"));
+				
 				list.add(bVo);
 			}
 		} catch (SQLException e) {
@@ -82,8 +85,8 @@ public class BoardDAO {
 
 	public void insertReplyBoard(BoardVO bVo) {
 		String sql = "insert into board("
-				+ "num, name, email, pass, title, content,BGROUP,BSEQUENCE, BLEVEL) "
-				+ "values(seq_board.nextval, ?, ?, ?, ?, ?,?,?,?)";
+				+ "num, name, email, pass, title, content,BGROUP,BSEQUENCE, BLEVEL)"
+				+ " values(seq_board.nextval, ?, ?, ?, ?, ?,?,?,?)";
 		Connection conn = null;
 		PreparedStatement pstmt = null;
 		try {
@@ -179,7 +182,9 @@ public class BoardDAO {
 	}
 
 	public void replySeqUpdate(BoardVO bVo) {
-		String sql = "update board set bsequence = bsequence+1 where bgroup = ? and bsequence > ?";
+	String sql 
+        = "update board set bsequence = bsequence+1 where bgroup = ? and bsequence > ?";
+	
 		Connection conn = null;
 		PreparedStatement pstmt = null;
 		try {

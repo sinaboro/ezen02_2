@@ -13,13 +13,14 @@ public class BoardReplyAction implements Action {
 	@Override
 	public void execute(HttpServletRequest request, HttpServletResponse response)
 			throws ServletException, IOException {
-		BoardVO bVo = new BoardVO();
+		
+		BoardVO bVo = new BoardVO(); //차일드 댓글
 		String num = request.getParameter("num");  //num는 누구꺼? 부모꺼
 		
 		
 		//부모정보가져오기
 		BoardDAO dao = BoardDAO.getInstance();
-		BoardVO pboard = dao.selectOneBoardByNum(num);
+		BoardVO pboard = dao.selectOneBoardByNum(num);  //부모글
 		
 		//아래꺼는 누구꺼? 댓글본인꺼
 		bVo.setName(request.getParameter("name"));
@@ -33,7 +34,7 @@ public class BoardReplyAction implements Action {
 		bVo.setBsequence(pboard.getBsequence()+1);
 		bVo.setBlevel(pboard.getBlevel()+1);
 		
-		
+		//기존 그룹이 같은 댓글들 bsequence+1식 증가
 		dao.replySeqUpdate(pboard);
 		
 		
