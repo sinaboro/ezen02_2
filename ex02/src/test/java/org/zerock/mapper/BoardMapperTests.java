@@ -1,11 +1,16 @@
 package org.zerock.mapper;
 
+import java.util.HashMap;
+import java.util.List;
+import java.util.Map;
+
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.test.context.ContextConfiguration;
 import org.springframework.test.context.junit4.SpringJUnit4ClassRunner;
 import org.zerock.domain.BoardVO;
+import org.zerock.domain.Criteria;
 
 import com.zerock.persistence.DataSourceTests;
 
@@ -68,5 +73,36 @@ public class BoardMapperTests {
 		
 		int result = mapper.update(vo);
 		log.info(result);
+	}
+	
+	@Test
+	public void testPaging() {
+		Criteria cri = new Criteria(3,10);
+		List<BoardVO> list = mapper.getListWithPagin(cri);
+		list.forEach(board->log.info(board));
+		
+	}
+	
+	@Test
+	public void testSearch() {
+		Map<String, String> map = new HashMap();
+		map.put("T", "TTT");
+		map.put("C", "CCC");
+		map.put("W", "WWW");
+		
+		Map<String, Map<String, String >> outer = new HashMap<String, Map<String,String>>();
+		outer.put("map", map);
+		List<BoardVO> list = mapper.searchTest(outer);
+		log.info(list);
+	}
+	
+	@Test
+	public void testSearchPaging() {
+		Criteria cri = new Criteria();
+		cri.setType("TCW");
+		cri.setKeyword("테스트");
+		List<BoardVO> list = mapper.getListWithPagin(cri);
+		list.forEach(board->log.info(board));
+		
 	}
 }

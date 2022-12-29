@@ -103,11 +103,11 @@
 				<Valve className="org.apache.catalina.valves.AccessLogValve" directory="logs" pattern="%h %l %u %t &quot;%r&quot; %s %b" prefix="localhost_access_log" suffix=".txt"/>
 
 
-				<Context docBase="ex02" path="/controller" reloadable="true" source="org.eclipse.jst.jee.server:ex02"/>
+				
 
 				
 				
-			<Context docBase="web-study-11_댓글구현" path="/web-study-11_댓글구현" reloadable="true" source="org.eclipse.jst.jee.server:web-study-11_댓글구현"/></Host>
+			<Context docBase="ex03" path="/" reloadable="true" source="org.eclipse.jst.jee.server:ex03"/></Host>
 		</Engine>
 	</Service>
 </Server>

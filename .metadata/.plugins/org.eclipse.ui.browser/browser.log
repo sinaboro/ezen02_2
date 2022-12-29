@@ -84,3 +84,50 @@
 
 12월 21, 2022 09:40:32.848 NEW SESSION
 12월 21, 2022 09:40:32.848 [1788:1436:1221/094032.846:ERROR:device_event_log_impl.cc(215)] [09:40:32.845] Bluetooth: bluetooth_adapter_winrt.cc:1074 Getting Default Adapter failed.
+12월 21, 2022 16:48:12.32 [1788:708:1221/164812.031:ERROR:connection_factory_impl.cc(472)] ConnectionHandler failed with net error: -2
+12월 21, 2022 21:29:42.870 [1788:1436:1221/212942.869:ERROR:CONSOLE(1)] "Request Storage.getStorageKeyForFrame failed. {"code":-32602,"message":"Frame tree node for given frame not found"}", source: devtools://devtools/bundled/devtools-frontend/front_end/core/protocol_client/protocol_client.js (1)
+12월 21, 2022 21:29:42.898 [1788:1436:1221/212942.898:ERROR:CONSOLE(1)] "Request Network.loadNetworkResource failed. {"code":-32602,"message":"Frame not found"}", source: devtools://devtools/bundled/devtools-frontend/front_end/core/protocol_client/protocol_client.js (1)
+12월 21, 2022 21:29:45.688 [1788:1436:1221/212945.688:ERROR:CONSOLE(1)] "Request Storage.getStorageKeyForFrame failed. {"code":-32602,"message":"Frame tree node for given frame not found"}", source: devtools://devtools/bundled/devtools-frontend/front_end/core/protocol_client/protocol_client.js (1)
+12월 21, 2022 21:29:45.761 [1788:1436:1221/212945.761:ERROR:CONSOLE(1)] "Request Network.loadNetworkResource failed. {"code":-32602,"message":"Frame not found"}", source: devtools://devtools/bundled/devtools-frontend/front_end/core/protocol_client/protocol_client.js (1)
+12월 21, 2022 21:35:20.567 [1788:1436:1221/213520.567:ERROR:CONSOLE(1)] "Request Storage.getStorageKeyForFrame failed. {"code":-32602,"message":"Frame tree node for given frame not found"}", source: devtools://devtools/bundled/devtools-frontend/front_end/core/protocol_client/protocol_client.js (1)
+12월 21, 2022 21:35:20.656 [1788:1436:1221/213520.655:ERROR:CONSOLE(1)] "Request Network.loadNetworkResource failed. {"code":-32602,"message":"Frame not found"}", source: devtools://devtools/bundled/devtools-frontend/front_end/core/protocol_client/protocol_client.js (1)
+
+12월 26, 2022 09:59:49.224 NEW SESSION
+12월 26, 2022 09:59:49.224 [9056:956:1226/095949.221:ERROR:device_event_log_impl.cc(215)] [09:59:49.221] Bluetooth: bluetooth_adapter_winrt.cc:1074 Getting Default Adapter failed.
+12월 26, 2022 11:57:10.138 [9056:4656:1226/115710.138:ERROR:connection_factory_impl.cc(472)] ConnectionHandler failed with net error: -2
+12월 26, 2022 12:30:03.541 [9056:956:1226/123003.541:ERROR:interface_endpoint_client.cc(694)] Message 0 rejected by interface blink.mojom.WidgetHost
+12월 26, 2022 15:23:55.279 [libprotobuf ERROR ..\..\third_party\protobuf\src\google\protobuf\message_lite.cc:133] Can't parse message of type "safe_browsing.ClientDownloadRequest" because it is missing required fields: (cannot determine missing fields for lite message)
+12월 26, 2022 16:24:58.02 [9056:956:1226/162458.002:ERROR:page_load_metrics_update_dispatcher.cc(160)] Invalid parse_start 0.257 s for activation_start 0.238715 s
+12월 26, 2022 16:24:58.107 [9056:956:1226/162458.107:ERROR:page_load_metrics_update_dispatcher.cc(160)] Invalid parse_start 0.257 s for activation_start 0.238715 s
+12월 26, 2022 16:24:58.267 [9056:956:1226/162458.267:ERROR:page_load_metrics_update_dispatcher.cc(160)] Invalid parse_start 0.257 s for activation_start 0.238715 s
+12월 26, 2022 16:24:58.756 [9056:956:1226/162458.756:ERROR:page_load_metrics_update_dispatcher.cc(160)] Invalid parse_start 0.257 s for activation_start 0.238715 s
+12월 26, 2022 16:24:59.11 [9056:956:1226/162459.011:ERROR:page_load_metrics_update_dispatcher.cc(160)] Invalid parse_start 0.257 s for activation_start 0.238715 s
+12월 26, 2022 16:24:59.119 [9056:956:1226/162459.119:ERROR:page_load_metrics_update_dispatcher.cc(160)] Invalid parse_start 0.257 s for activation_start 0.238715 s
+12월 26, 2022 16:24:59.703 [9056:956:1226/162459.703:ERROR:page_load_metrics_update_dispatcher.cc(160)] Invalid parse_start 0.257 s for activation_start 0.238715 s
+12월 26, 2022 16:24:59.812 [9056:956:1226/162459.812:ERROR:page_load_metrics_update_dispatcher.cc(160)] Invalid parse_start 0.257 s for activation_start 0.238715 s
+12월 26, 2022 16:25:01.474 [9056:956:1226/162501.474:ERROR:page_load_metrics_update_dispatcher.cc(160)] Invalid parse_start 0.257 s for activation_start 0.238715 s
+12월 26, 2022 16:25:02.115 [9056:956:1226/162502.115:ERROR:page_load_metrics_update_dispatcher.cc(160)] Invalid parse_start 0.257 s for activation_start 0.238715 s
+12월 26, 2022 16:25:02.227 [9056:956:1226/162502.227:ERROR:page_load_metrics_update_dispatcher.cc(160)] Invalid parse_start 0.257 s for activation_start 0.238715 s
+12월 26, 2022 16:25:03.972 [9056:956:1226/162503.972:ERROR:page_load_metrics_update_dispatcher.cc(160)] Invalid parse_start 0.257 s for activation_start 0.238715 s
+12월 26, 2022 16:25:04.97 [9056:956:1226/162504.096:ERROR:page_load_metrics_update_dispatcher.cc(160)] Invalid parse_start 0.257 s for activation_start 0.238715 s
+12월 26, 2022 16:25:04.283 [9056:956:1226/162504.283:ERROR:page_load_metrics_update_dispatcher.cc(160)] Invalid parse_start 0.257 s for activation_start 0.238715 s
+12월 26, 2022 16:25:04.483 [9056:956:1226/162504.483:ERROR:page_load_metrics_update_dispatcher.cc(160)] Invalid parse_start 0.257 s for activation_start 0.238715 s
+12월 26, 2022 16:25:04.676 [9056:956:1226/162504.676:ERROR:page_load_metrics_update_dispatcher.cc(160)] Invalid parse_start 0.257 s for activation_start 0.238715 s
+12월 26, 2022 16:25:04.875 [9056:956:1226/162504.875:ERROR:page_load_metrics_update_dispatcher.cc(160)] Invalid parse_start 0.257 s for activation_start 0.238715 s
+12월 26, 2022 16:25:05.03 [9056:956:1226/162505.003:ERROR:page_load_metrics_update_dispatcher.cc(160)] Invalid parse_start 0.257 s for activation_start 0.238715 s
+12월 26, 2022 16:25:05.139 [9056:956:1226/162505.139:ERROR:page_load_metrics_update_dispatcher.cc(160)] Invalid parse_start 0.257 s for activation_start 0.238715 s
+12월 26, 2022 16:25:05.747 [9056:956:1226/162505.747:ERROR:page_load_metrics_update_dispatcher.cc(160)] Invalid parse_start 0.257 s for activation_start 0.238715 s
+12월 26, 2022 16:25:05.922 [9056:956:1226/162505.922:ERROR:page_load_metrics_update_dispatcher.cc(160)] Invalid parse_start 0.257 s for activation_start 0.238715 s
+12월 26, 2022 16:25:06.52 [9056:956:1226/162506.052:ERROR:page_load_metrics_update_dispatcher.cc(160)] Invalid parse_start 0.257 s for activation_start 0.238715 s
+12월 26, 2022 16:25:06.180 [9056:956:1226/162506.180:ERROR:page_load_metrics_update_dispatcher.cc(160)] Invalid parse_start 0.257 s for activation_start 0.238715 s
+12월 26, 2022 16:25:06.323 [9056:956:1226/162506.323:ERROR:page_load_metrics_update_dispatcher.cc(160)] Invalid parse_start 0.257 s for activation_start 0.238715 s
+12월 26, 2022 16:25:06.436 [9056:956:1226/162506.436:ERROR:page_load_metrics_update_dispatcher.cc(160)] Invalid parse_start 0.257 s for activation_start 0.238715 s
+12월 26, 2022 16:25:06.555 [9056:956:1226/162506.555:ERROR:page_load_metrics_update_dispatcher.cc(160)] Invalid parse_start 0.257 s for activation_start 0.238715 s
+12월 26, 2022 16:25:06.731 [9056:956:1226/162506.731:ERROR:page_load_metrics_update_dispatcher.cc(160)] Invalid parse_start 0.257 s for activation_start 0.238715 s
+12월 26, 2022 16:25:08.347 [9056:956:1226/162508.347:ERROR:page_load_metrics_update_dispatcher.cc(160)] Invalid parse_start 0.257 s for activation_start 0.238715 s
+12월 26, 2022 16:25:08.384 [9056:956:1226/162508.383:ERROR:page_load_metrics_update_dispatcher.cc(160)] Invalid parse_start 0.257 s for activation_start 0.238715 s
+12월 26, 2022 16:25:08.508 [9056:956:1226/162508.508:ERROR:page_load_metrics_update_dispatcher.cc(160)] Invalid parse_start 0.257 s for activation_start 0.238715 s
+12월 26, 2022 16:25:08.736 [9056:956:1226/162508.736:ERROR:page_load_metrics_update_dispatcher.cc(160)] Invalid parse_start 0.257 s for activation_start 0.238715 s
+12월 26, 2022 16:25:08.854 [9056:956:1226/162508.854:ERROR:page_load_metrics_update_dispatcher.cc(160)] Invalid parse_start 0.257 s for activation_start 0.238715 s
+12월 26, 2022 19:40:35.602 [9056:956:1226/194035.601:ERROR:interface_endpoint_client.cc(694)] Message 0 rejected by interface blink.mojom.WidgetHost
+12월 26, 2022 19:43:43.394 [9056:956:1226/194343.394:ERROR:device_event_log_impl.cc(215)] [19:43:43.394] Bluetooth: bluetooth_adapter_winrt.cc:1074 Getting Default Adapter failed.
