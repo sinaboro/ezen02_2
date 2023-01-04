@@ -1,0 +1,128 @@
+@font-face {
+    font-family: 'Pretendard-Regular';
+    src: url('https://cdn.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Regular.woff') format('woff');
+    font-weight: 400;
+    font-style: normal;
+}
+
+* {
+	margin: 0;
+	padding: 0;
+	font-family: 'Pretendard-Regular';
+}
+
+#container {
+	width: 500px;
+	margin: 20px auto;
+}
+
+#container #hlogo {
+	width: 100%;
+	height: 100px;
+	padding: 10px;
+	margin-top: 50px;
+	margin-bottom: 50px;
+	text-align: center;
+}
+#container #hlogo h1 {
+	width: 100%;
+	height: 100%;
+}
+#container h2 {
+	text-align: center;
+	margin-bottom: 50px;
+}
+
+#container #joinbox {
+	width: 100%;
+}
+#container #joinbox p {
+	font-size: 18px;
+	font-weight: bold;
+}
+
+#container #joinbox span {
+	font-size: 13px;
+	padding-left: 5px;
+	color: #7c7c7c;
+}
+
+#container #joinbox #idtextbox {
+	width: 80%;
+	height: 40px;
+	padding-left: 10px;
+	font-size: 15px;
+}
+
+#container #joinbox #idtextbox:focus {
+	border: 2px solid #8c8ce8;
+	outline: none;
+}
+
+#idbox {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	margin-bottom: -20px;
+}
+
+#container #joinbox #overlap {
+	/* width: 20%; */
+	height: 44px;
+	margin-left: 2px;
+	background-color: white;
+	border: 1px solid #999999;
+	padding: 10px 15px;
+	margin-right: -13px;
+	cursor: pointer;
+	font-size: 15px;
+}
+
+#container #joinbox #overlap:hover {
+	background-color: #8c8ce8;
+	color: white;
+}
+
+#container #joinbox #textbox {
+	width: 100%;
+	height: 40px;
+	padding-left: 10px;
+	font-size: 15px;
+}
+
+#container #joinbox #textbox:focus {
+	border: 2px solid #8c8ce8;
+	outline: none;
+}
+
+#container #joinbox #roger {
+	width: 103%;
+	height: 50px;
+	background-color: white;
+	color: black;
+	border: 1px solid #999999;
+	font-size: 18px;
+	cursor: pointer;
+	margin-bottom: 20px;
+}
+
+#container #joinbox #roger:hover {
+	background-color: #8c8ce8;
+	color: white;
+}
+
+#reset {
+	width: 103%;
+	height: 50px;
+	background-color: #999999;
+	color: white;
+	border: none;
+	cursor: pointer;
+	font-size: 18px;
+}
+
+#reset:hover {
+	background-color: white;
+	border: 1px solid #999999;
+	color: black;
+}

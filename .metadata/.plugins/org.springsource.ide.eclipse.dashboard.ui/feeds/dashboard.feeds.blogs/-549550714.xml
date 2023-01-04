@@ -5,7 +5,79 @@
   <link rel="self" href="https://spring.io/blog.atom" />
   <id>http://spring.io/blog.atom</id>
   <icon>https://spring.io/favicon.ico</icon>
-  <updated>2022-12-27T08:00:00Z</updated>
+  <updated>2023-01-03T19:00:00Z</updated>
+  <entry>
+    <title>Spring Tools 4.17.1 released</title>
+    <link rel="alternate" href="https://spring.io/blog/2023/01/03/spring-tools-4-17-1-released" />
+    <category term="releases" label="Releases" />
+    <author>
+      <name>Martin Lippert</name>
+    </author>
+    <id>tag:spring.io,2023-01-03:5050</id>
+    <updated>2023-01-03T19:00:00Z</updated>
+    <content type="html">&lt;p&gt;Dear Spring Community,&lt;/p&gt;
+&lt;p&gt;I am happy to announce the 4.17.1 release of the Spring Tools 4 for Eclipse, Visual Studio Code, and Theia.&lt;/p&gt;&lt;h4&gt;&lt;a href="#fixes-and-improvements" class="anchor" name="fixes-and-improvements"&gt;&lt;/a&gt;fixes and improvements&lt;/h4&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;em&gt;(Spring Boot)&lt;/em&gt; fixed: Eclipse STS 4.17 takes 96 % processor time on Intel i9 (&lt;a href="https://github.com/spring-projects/sts4/issues/934"&gt;#934&lt;/a&gt;)&lt;/li&gt;
+  &lt;li&gt;&lt;em&gt;(Spring Boot)&lt;/em&gt; fixed: BootLanguageServerBootApp class is taking all available cpu continuously (&lt;a href="https://github.com/spring-projects/sts4/issues/932"&gt;#932&lt;/a&gt;)&lt;/li&gt;
+  &lt;li&gt;&lt;em&gt;(Spring Boot)&lt;/em&gt; fixed: OpenRewrite unchecked, but always Language Server Background Job(Loading Rewrite Recipes) (&lt;a href="https://github.com/spring-projects/sts4/issues/925"&gt;#925&lt;/a&gt;)&lt;/li&gt;
+  &lt;li&gt;&lt;em&gt;(Spring Boot)&lt;/em&gt; fixed: [validation] spring.factories EnableAutoConfiguration key for boot 3.0 ignores &amp;lsquo;on&amp;rsquo; setting (&lt;a href="https://github.com/spring-projects/sts4/issues/917"&gt;#917&lt;/a&gt;)&lt;/li&gt;
+  &lt;li&gt;&lt;em&gt;(VSCode)&lt;/em&gt; fixed: [vscode] Boot LS is broken if Java LS launch mode is &amp;lsquo;Hybrid&amp;rsquo; (&lt;a href="https://github.com/spring-projects/sts4/issues/919"&gt;#919&lt;/a&gt;)&lt;/li&gt;
+&lt;/ul&gt;&lt;h4&gt;&lt;a href="#known-issues" class="anchor" name="known-issues"&gt;&lt;/a&gt;known issues&lt;/h4&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;em&gt;(Spring Boot)&lt;/em&gt;: The newly introduced additional reconciling for Java source files which is used to show up additional validations and quick fixes can cause increased memory and CPU consumption. In case you stumble upon issues in this area, feel free to disable the reconciling via &lt;code&gt;Preferences -&amp;gt; Extensions -&amp;gt; Spring Boot Tools -&amp;gt; Open Rewrite&lt;/code&gt; (in VSCode) or &lt;code&gt;Preferences -&amp;gt; Language Servers -&amp;gt; Spring Language Servers -&amp;gt; Spring Boot Language Server -&amp;gt; Open Rewrite&lt;/code&gt; (in Eclipse).&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;To download the distribution for Eclipse and find links to the marketplace entries for Visual Studio Code and Theia, please go visit:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Spring Tools 4: &lt;a href="https://spring.io/tools/"&gt;https://spring.io/tools/&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Detailed changes can be found here: &lt;a href="https://github.com/spring-projects/sts4/wiki/Changelog#2023-01-03-4171-release-incl-language-servers-version-1430"&gt;https://github.com/spring-projects/sts4/wiki/Changelog#2023-01-03-4171-release-incl-language-servers-version-1430&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Spring Tools 4.17.2 is scheduled to be released in early February 2023.&lt;/p&gt;
+&lt;p&gt;Enjoy!&lt;/p&gt;
+&lt;!-- rendered by Sagan Renderer Service --&gt;</content>
+  </entry>
+  <entry>
+    <title>This Week in Spring - Jan 3rd, 2023</title>
+    <link rel="alternate" href="https://spring.io/blog/2023/01/03/this-week-in-spring-jan-3rd-2023" />
+    <category term="engineering" label="Engineering" />
+    <author>
+      <name>Josh Long</name>
+    </author>
+    <id>tag:spring.io,2023-01-03:5049</id>
+    <updated>2023-01-03T08:00:00Z</updated>
+    <content type="html">&lt;p&gt;Hi, Spring fans! Happy new year! It&amp;rsquo;s &lt;strong&gt;2023&lt;/strong&gt; already! Who saw that comin&amp;rsquo;? I sure didn&amp;rsquo;t. This year promises to be more amazing than ever, and I can&amp;rsquo;t wait to be a part of it.&lt;/p&gt;
+&lt;p&gt;As usual, the first week of January is when we mark the date of the first installment of this humble roundup, &lt;em&gt;This Week in Spring&lt;/em&gt;, &lt;em&gt;waaaay&lt;/em&gt; back in the first week of January 2011! &lt;em&gt;12 years&lt;/em&gt; of &lt;em&gt;This Week in Spring&lt;/em&gt;! Now &lt;em&gt;that&amp;rsquo;s&lt;/em&gt; consistency! &lt;/p&gt;
+&lt;p&gt;And it&amp;rsquo;s only possible because of you, dear community. &lt;em&gt;Thank you&lt;/em&gt;. You, who have been consistently excellent every week of the year for years and years, are truly the reason for the &lt;em&gt;season&lt;/em&gt;, and we appreciate you. This week is no exception! There&amp;rsquo;s a ton of great content, so let&amp;rsquo;s kick the year off right!&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;First, I&amp;rsquo;ll be speaking at the &lt;a href="https://www.meetup.com/atlantajug/events/290659991/"&gt;Atlanta JUG&lt;/a&gt; on the 16th of this month, by the by, so please join me, and we&amp;rsquo;ll dive headfirst into Spring in 2023!&lt;/li&gt;
+  &lt;li&gt;Last week, I had the pleasure of interviewing my friend, and teammate, the legendary &lt;a href="https://spring.io/blog/2022/12/29/a-bootiful-podcast-dashaun-carter-amazing-human-being-father-friend-engineer-and-fellow-spring-developer-advocate"&gt;DaShaun Carter&lt;/a&gt; on a &lt;a href="https://bootifulpodcast.fm"&gt;&lt;em&gt;Bootiful Podcast&lt;/em&gt;&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;I &lt;em&gt;love&lt;/em&gt; this post by Rafael Winterhalter (create of ByteBuddy and &lt;a href="https://bootifulpodcast.fm/#/episodes/c106105d-fc05-4321-ad4b-5b7b18e0e722"&gt;&lt;em&gt;Bootiful Podcast&lt;/em&gt; guest&lt;/a&gt; on the amazing publish/subscribe capabilities of PostgreSQL. I love PostgreSQL. But then he goes even further, turning the mechanism into support in Spring Integration. He explains everything in this epic post, &lt;a href="https://www.javaadvent.com/2022/12/using-postgres-as-a-message-queue.html"&gt;&lt;em&gt;Using Postgres as a Message Queue&lt;/em&gt;&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://joshlong.com/jl/blogpost/create-an-empty-git-branch.html"&gt;Create a new Git branch with no history&lt;/a&gt; - not strictly speaking Spring-related, but I thought it was interesting. Unless you&amp;rsquo;re not using Git&amp;hellip; I suppose.&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://feeds.feedblitz.com/~/723302494/0/baeldung~NonUniqueResultException-in-Spring-Data-JPA"&gt;NonUniqueResultException in Spring Data JPA&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://feeds.feedblitz.com/~/723293176/0/baeldung~Observability-with-Spring-Boot"&gt;Observability with Spring Boot 3&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://joshlong.com/jl/blogpost/invalid_shutdown_methods_in_spring_boot_3_aot_graalvm.html"&gt;Oddity with &lt;code&gt;shutdown&lt;/code&gt; methods in Spring Boot 3 AOT and GraalVM&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://tafadzwalnyamukapa.medium.com/spring-boot-3-spring-native-graalvm-with-kubernetes-istio-c26687185366"&gt;Spring Boot (3) Spring Native (GraalVM) with Kubernetes &amp;amp; Istio&#x1f525;&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://feeds.feedblitz.com/~/723177786/0/baeldung~Using-Watermarks-with-iText-in-Java"&gt;Using Watermarks with iText in Java&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://kubernetes.io/blog/2022/12/29/scalable-job-tracking-ga/"&gt;Blog: Kubernetes 1.26: Job Tracking, to Support Massively Parallel Batch Workloads, Is Generally Available&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://kubernetes.io/blog/2022/12/30/advancements-in-kubernetes-traffic-engineering/"&gt;Blog: Kubernetes v1.26: Advancements in Kubernetes Traffic Engineering&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://kubernetes.io/blog/2023/01/02/cross-namespace-data-sources-alpha/"&gt;Blog: Kubernetes v1.26: Alpha support for cross-namespace storage data sources&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;!-- rendered by Sagan Renderer Service --&gt;</content>
+  </entry>
+  <entry>
+    <title>A Bootiful Podcast: DaShaun Carter: amazing human being, father, friend, engineer, and fellow Spring Developer Advocate</title>
+    <link rel="alternate" href="https://spring.io/blog/2022/12/29/a-bootiful-podcast-dashaun-carter-amazing-human-being-father-friend-engineer-and-fellow-spring-developer-advocate" />
+    <category term="engineering" label="Engineering" />
+    <author>
+      <name>Josh Long</name>
+    </author>
+    <id>tag:spring.io,2022-12-29:5048</id>
+    <updated>2022-12-29T08:00:00Z</updated>
+    <content type="html">&lt;p&gt;Hi, Spring fans! this episode, we turn it to 11 and ring in the new year with a fantastic human being, father, friend, engineer, and fellow Spring Developer Advocate: DaShaun Carter (&lt;a href="https://twitter.com/DaShaun"&gt;@dashaun&lt;/a&gt;). &lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Happy new year!&lt;/strong&gt;&lt;/p&gt;
+&lt;iframe title="DaShaun Carter: amazing human being, father, friend, engineer, and fellow Spring Developer Advocate" allowtransparency="true" height="150" width="100%" style="border: none; min-width: min(100%, 430px);" scrolling="no" data-name="pb-iframe-player" src="https://www.podbean.com/player-v2/?i=en3wm-134cd7b-pb&amp;from=pb6admin&amp;share=1&amp;download=1&amp;rtl=0&amp;fonts=Arial&amp;skin=1&amp;font-color=&amp;logo_link=episode_page&amp;btn-skin=7"&gt;&lt;/iframe&gt;
+&lt;!-- rendered by Sagan Renderer Service --&gt;</content>
+  </entry>
   <entry>
     <title>This Week in Spring  - Happy New Year 2023 edition - December 27th, 2022</title>
     <link rel="alternate" href="https://spring.io/blog/2022/12/27/this-week-in-spring-happy-new-year-2023-edition-december-27th-2022" />
@@ -615,83 +687,6 @@ dependencyManagement {&#xD;
   &lt;li&gt;Wire Spring applications to &lt;a href="https://learn.microsoft.com/en-us/azure/developer/java/spring-framework/"&gt;interact with Azure services&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;For feedback and questions, &lt;a href="mailto:AzureSpringCloud-Talk@service.microsoft.com"&gt;please e-mail us.&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
-&lt;!-- rendered by Sagan Renderer Service --&gt;</content>
-  </entry>
-  <entry>
-    <title>Spring Tools 4.17.0 released</title>
-    <link rel="alternate" href="https://spring.io/blog/2022/12/07/spring-tools-4-17-0-released" />
-    <category term="releases" label="Releases" />
-    <author>
-      <name>Martin Lippert</name>
-    </author>
-    <id>tag:spring.io,2022-12-07:5030</id>
-    <updated>2022-12-07T16:00:00Z</updated>
-    <content type="html">&lt;p&gt;Dear Spring Community,&lt;/p&gt;
-&lt;p&gt;I am happy to announce the 4.17.0 release of the Spring Tools 4 for Eclipse, Visual Studio Code, and Theia.&lt;/p&gt;&lt;h4&gt;&lt;a href="#major-changes-to-the-spring-tools-4-for-eclipse-distribution" class="anchor" name="major-changes-to-the-spring-tools-4-for-eclipse-distribution"&gt;&lt;/a&gt;major changes to the Spring Tools 4 for Eclipse distribution&lt;/h4&gt;
-&lt;ul&gt;
-  &lt;li&gt;updated to Eclipse 2022-12 release (&lt;a href="https://eclipseide.org/release/noteworthy/"&gt;new and noteworthy&lt;/a&gt;)&lt;/li&gt;
-&lt;/ul&gt;&lt;h4&gt;&lt;a href="#early-access-to-new-experimental-features" class="anchor" name="early-access-to-new-experimental-features"&gt;&lt;/a&gt;early access to new experimental features&lt;/h4&gt;
-&lt;p&gt;Among a number of bug fixes and minor improvements, this release introduces experimental support for:&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;Spring Boot version validations: The IDE will tell you when there is a newer major, minor, or patch version available for your Spring Boot project&lt;/li&gt;
-  &lt;li&gt;Spring Boot upgrade support: The tooling will help you upgrading your existing projects to newer Spring Boot versions, including upgrades to newer patch and minor versions, as well as newer major versions (e.g. upgrading to Spring Boot 3)&lt;/li&gt;
-  &lt;li&gt;Spring specific validations and refactorings: The tooling will indicate whether something can or should be changed in your source code to keep your Spring project up-to-date with the latest recommendations or advancements in Spring&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;To learn more about these new experimental features, please take a look at the user guide: &lt;a href="https://github.com/spring-projects/sts4/wiki/"&gt;https://github.com/spring-projects/sts4/wiki/&lt;/a&gt;&lt;br/&gt;And we would like to hear from you. Please let us know if you come across any issues or have thoughts and wishes for further improvements in this space: &lt;a href="https://github.com/spring-projects/sts4/issues"&gt;https://github.com/spring-projects/sts4/issues&lt;/a&gt;&lt;/p&gt;&lt;h4&gt;&lt;a href="#fixes-and-improvements" class="anchor" name="fixes-and-improvements"&gt;&lt;/a&gt;fixes and improvements&lt;/h4&gt;
-&lt;p&gt;Detailed changes can be found here: &lt;a href="https://github.com/spring-projects/sts4/wiki/Changelog#2022-12-07-4170-release-incl-language-servers-version-1410"&gt;https://github.com/spring-projects/sts4/wiki/Changelog#2022-12-07-4170-release-incl-language-servers-version-1410&lt;/a&gt;&lt;/p&gt;&lt;h4&gt;&lt;a href="#downloads" class="anchor" name="downloads"&gt;&lt;/a&gt;downloads&lt;/h4&gt;
-&lt;p&gt;To download the distribution for Eclipse and find links to the marketplace entries for Visual Studio Code and Theia, please go visit:&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;Spring Tools 4: &lt;a href="https://spring.io/tools/"&gt;https://spring.io/tools/&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;Spring Tools 4.17.1 is scheduled to be released in early Febuary 2023.&lt;/p&gt;
-&lt;p&gt;Enjoy!&lt;/p&gt;
-&lt;!-- rendered by Sagan Renderer Service --&gt;</content>
-  </entry>
-  <entry>
-    <title>This Week in Spring - December 6th, 2022</title>
-    <link rel="alternate" href="https://spring.io/blog/2022/12/06/this-week-in-spring-december-6th-2022" />
-    <category term="engineering" label="Engineering" />
-    <author>
-      <name>Josh Long</name>
-    </author>
-    <id>tag:spring.io,2022-12-06:5029</id>
-    <updated>2022-12-06T09:00:00Z</updated>
-    <content type="html">&lt;p&gt;Hi, Spring fans! Welcome to another installment of &lt;em&gt;This Week in Spring&lt;/em&gt;! How are you? You know what I&amp;rsquo;ve wanted to do? See my friends on the Spring team in person since the pandemic descended. And, I&amp;rsquo;m overjoyed to relate, I&amp;rsquo;ve just had the privilege of a nice meeting with several of them last night. And I&amp;rsquo;m going to see more of them today! Seriously. I feel like I won the lottery. I&amp;rsquo;ve missed my friends. Hug your friends and family, friends. You never know when the next pandemic (or life in general) will put distance between you and them. So, in order to close that distance, I&amp;rsquo;m going to go back to meetings with them, and I&amp;rsquo;ll leave you with yet another week&amp;rsquo;s curated list of content. (Can you believe we&amp;rsquo;re like four weeks away from 2023?)&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href="https://spring.io/blog/2022/12/01/a-bootiful-podcast-java-champion-gunnar-morling-about-messaging-middleware-debezium-change-data-capture-and-more"&gt;A Bootiful Podcast: Java Champion Gunnar Morling about messaging middleware, Debezium, change data capture, and more.&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://twitter.com/hiiamfabian/status/1598720268481986567?s=12&amp;t=GnAsFlAXMglSk0_oHs31HA"&gt;&#x1f4e3; Spring Boot Migrator 0.13.0 Release &lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://twitter.com/moderneinc/status/1597345901248643072"&gt;Moderne, Inc. on Twitter: &amp;quot;Migration engineering can be complex. For those moving to @springboot 3.0, here&amp;rsquo;s a guide from @tkvangorder to ease your migration. &lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://feeds.feedblitz.com/~/721157238/0/baeldung~REST-vs-GraphQL-vs-gRPC-%e2%80%93-Which-API-to-Choose"&gt;REST vs. GraphQL vs. gRPC ? Which API to Choose?&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://www.sivalabs.in/spring-boot-3-error-reporting-using-problem-details/"&gt;SivaLabs - Spring Boot 3 : Error Responses using Problem Details for HTTP APIs&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://www.sivalabs.in/using-java-records-with-spring-boot-3/"&gt;SivaLabs - Using Java Records with Spring Boot 3&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://moderne.io/blog/speed-your-spring-boot-3-0-migration"&gt;Speed Your Spring Boot 3.0 Migration&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://spring.io/blog/2022/12/02/spring-cloud-2022-0-0-release-candidate-3-codename-kilburn-has-been-released"&gt;Spring Cloud 2022.0.0 Release Candidate 3 (codename Kilburn) Has Been Released&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://spring.io/blog/2022/12/05/spring-shell-2-1-4-and-3-0-0-m3-are-now-available"&gt;Spring Shell 2.1.4 and 3.0.0-M3 are now available&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://spring.io/blog/2022/12/02/spring-ws-samples-upgraded-for-spring-boot-3-0"&gt;Spring WS Samples upgraded for Spring Boot 3.0!&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://streamnative.io/blog/engineering/2022-11-29-spring-into-pulsar-part-2-spring-based-microservices-for-multiple-protocols-with-apache-pulsar/?_hsmi=236088322&amp;_hsenc=p2ANqtz-_qisX4N_GC8oBfRmELjybtuAjCYFhRyFpn9RXdIRXjEUZxvdW0vaQ4RjeI_bn9IMWonR9rSJ_Lw5Fzyy9RfsJguimDlw"&gt;Spring into Pulsar Part 2: Spring-based Microservices for Multiple Protocols with Apache Pulsar - StreamNative&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://feeds.feedblitz.com/~/720797172/0/baeldung~Using-Firebase-Cloud-Messaging-in-Spring-Boot-Applications"&gt;Using Firebase Cloud Messaging in Spring Boot Applications&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;I love Maciej Walkowiak&amp;rsquo;s &lt;a href="https://maciejwalkowiak.com/blog/whats-new-in-spring/"&gt;What&amp;rsquo;s new in Spring? posts&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;Want to use Vaadin Flow with Spring Boot 3 and its new AOT engine? Here&amp;rsquo;s a proof-of-concept that&amp;rsquo;ll prove useful! &lt;a href="https://github.com/marcushellberg/flow-native"&gt;marcushellberg/flow-native&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://kubernetes.io/blog/2022/12/01/runtime-observability-opentelemetry/"&gt;Blog: Boosting Kubernetes container runtime observability with OpenTelemetry&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://kubernetes.io/blog/2022/12/02/seccomp-notifier/"&gt;Blog: Finding suspicious syscalls with the seccomp notifier&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://kubernetes.io/blog/2022/12/05/forensic-container-checkpointing-alpha/"&gt;Blog: Forensic container checkpointing in Kubernetes&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;!-- rendered by Sagan Renderer Service --&gt;</content>
-  </entry>
-  <entry>
-    <title>Spring Shell 2.1.4 and 3.0.0-M3 are now available</title>
-    <link rel="alternate" href="https://spring.io/blog/2022/12/05/spring-shell-2-1-4-and-3-0-0-m3-are-now-available" />
-    <category term="releases" label="Releases" />
-    <author>
-      <name>Janne Valkealahti</name>
-    </author>
-    <id>tag:spring.io,2022-12-05:5028</id>
-    <updated>2022-12-05T15:25:14Z</updated>
-    <content type="html">&lt;p&gt;On behalf of the team and everyone who has contributed, I&amp;rsquo;m happy to announce that Spring Shell &lt;code&gt;2.1.4&lt;/code&gt; and &lt;code&gt;3.0.0-M3&lt;/code&gt; has been released and is now available from &lt;a href="https://repo.spring.io/release"&gt;https://repo.spring.io/release&lt;/a&gt;, Maven Central and &lt;a href="https://repo.spring.io/milestone"&gt;https://repo.spring.io/milestone&lt;/a&gt; respectively.&lt;/p&gt;
-&lt;p&gt;&lt;code&gt;3.0.0-M3&lt;/code&gt; is first milestone which builds on Spring Boot 3.0.0 GA version.&lt;/p&gt;
-&lt;p&gt;Please see the &lt;a href="https://github.com/spring-projects/spring-shell/releases/tag/v2.1.4"&gt;release notes 2.1.4&lt;/a&gt; and &lt;a href="https://github.com/spring-projects/spring-shell/releases/tag/v3.0.0-M3"&gt;release notes 3.0.0-M3&lt;/a&gt; for more details.&lt;/p&gt;
-&lt;p&gt;Thanks to all those who have contributed with issue reports and pull requests.&lt;/p&gt;&lt;h3&gt;&lt;a href="#how-can-you-help" class="anchor" name="how-can-you-help"&gt;&lt;/a&gt;How can you help?&lt;/h3&gt;
-&lt;p&gt;&lt;a href="https://spring.io/projects/spring-shell/"&gt;Project Page&lt;/a&gt; | &lt;a href="https://github.com/spring-projects/spring-shell"&gt;GitHub&lt;/a&gt; | &lt;a href="https://github.com/spring-projects/spring-shell/issues"&gt;Issues&lt;/a&gt; | &lt;a href="https://docs.spring.io/spring-shell/docs/2.1.4/site/reference/htmlsingle"&gt;Documentation&lt;/a&gt;&lt;/p&gt;
 &lt;!-- rendered by Sagan Renderer Service --&gt;</content>
   </entry>
 </feed>

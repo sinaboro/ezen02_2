@@ -1,0 +1,54 @@
+/* wrap */
+#btn {
+	background-color: white;
+	border: 1px solid #999999;
+	padding: 10px 15px;
+	margin-left: 5px;
+	cursor: pointer;
+}
+
+#btn:HOVER {
+	background-color: #8c8ce8;
+	color: white;
+}
+
+#wrap {
+	margin-top: 100px;
+	margin-bottom: 100px;
+}
+
+#wrap h1 {
+	margin-bottom: 50px;
+}
+
+#mypage {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	margin-bottom: 50px;
+}
+
+#mypage img {
+	width: 200px;
+	margin-bottom: 50px;
+}
+
+#mypage table {
+	line-height: 50px;
+	text-align: center;
+	/* border-collapse: collapse; */
+}
+
+#mypage th {
+	padding: 0 50px;
+	border: none;
+	/* background-color: purple; */
+	background-color: #8c8ce8;
+	color: white;
+}
+
+#mypage td {
+	padding: 0 50px;
+	border: 1px solid #bbbbbb;
+}

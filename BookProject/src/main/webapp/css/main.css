@@ -1,0 +1,183 @@
+/* div#ad */
+#ad {
+    width: 1150px;
+    margin: 30px auto;
+    /* background-color: bisque; */
+    height: 500px;
+    border: 1px solid #8c8ce8;
+}
+#ad #adlist {
+	/* background-color: #3bf5df; */
+	width: 15%;
+	height: 100%;
+	float: left;
+}
+#ad #view {
+	width: 100%;
+	font-weight: bold;
+	font-size: 17px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+#ad #view:hover+#adlist {
+	display: block;
+}
+#ad #adlist:hover {
+	display: block;
+}
+
+#adlist {
+	text-align: center;
+}
+
+#ullist {
+	text-align: center;
+}
+
+#adlist li {
+	line-height: 21px;	
+	height: 27px;
+	display; inline-block;
+}
+
+#ad #adlist li a {
+	color: #545454;
+	align-items: center;
+}
+
+#ad #adlist li a:hover {
+	text-decoration: underline;
+	color: #7676e2;
+	font-style: oblique;
+}
+
+#ad #adimg {
+	/* background-color: #3bf560; */
+	width: 85%;
+	height: 100%;
+	float: right;
+	position: relative;
+}
+
+.mySlides {display: none; height: 100%;}
+img {vertical-align: middle;}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+.active {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+@media only screen and (max-width: 300px) {
+  .text {font-size: 11px}
+}
+
+/* section */
+section {
+    width: 1150px;
+    margin: 0 auto;
+    /* background-color: cornflowerblue; */
+    height: 1210px;
+}
+section #sec1 {
+	width: 100%;
+	height: 600px;
+	/* background-color: #a71bf2; */
+	align-items: center;
+	margin-top: 50px;
+	margin-bottom: 50px;
+}
+section #sec1 h2 {
+	padding: 10px;
+}
+section #sec1 #sec1-1 {
+	width: 100%;
+	height: 90%;
+	/* background-color: #97deaa; */
+	display: flex;
+	justify-content: space-between;
+}
+
+.sec1-1text p {
+	margin-top: 10px;
+}
+
+
+section #sec1 #sec1-1 .sec1-1book {
+	width: 23%;
+	height: 100%;
+	float: left;
+	padding: 10px;
+}
+section #sec1 #sec1-1 .sec1-1book a {
+	color: black;
+	font-weight: bold;
+}
+section #sec1 #sec1-1 .sec1-1book a:hover {
+	text-decoration: underline;
+	color: #7676e2;
+}
+
+section #sec2 {
+	width: 100%;
+	height: 600px;
+	/* background-color: #1bf246; */
+	margin-top: -50px;
+}
+section #sec2 h2 {
+	padding: 10px;
+}
+section #sec2 #youtube {
+	width: 70%;
+	height: 90%;
+	float: left;
+}
+section #sec2 #youtube p {
+	font-weight: bold;
+	padding-left: 10px;
+}
+section #sec2 #sec2text {
+	width: 25%;
+	height: 80%;
+	float: right;
+	padding: 10px;
+	border: 1px solid #999999;
+	line-height: 30px;
+	padding-top: 20px;
+}
+
+#sec2text img {
+	border-radius: 100%;
+}
+
+#sec2text p {
+	margin-top: 30px;
+}

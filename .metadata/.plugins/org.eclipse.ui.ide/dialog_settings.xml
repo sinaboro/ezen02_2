@@ -119,10 +119,28 @@
 		<item key="WizardProjectsImportPage.STORE_CLOSE_CREATED_PROJECTS_ID" value="false"/>
 		<item key="WizardProjectsImportPage.STORE_HIDE_CONFLICTING_PROJECTS_ID" value="false"/>
 		<list key="WizardProjectsImportPage.STORE_DIRECTORIES">
+			<item value="C:\Works2\project00 (7)"/>
+			<item value="C:\Works2\ProjectF"/>
+			<item value="C:\Works2\Hosinsa"/>
+			<item value="C:\Works2\BookProject"/>
+			<item value="C:\Works2\FirstProject_4"/>
 			<item value="C:\Works2\web-study-11"/>
 		</list>
 		<list key="WizardProjectsImportPage.STORE_ARCHIVES">
 			<item value=""/>
+			<item value="C:\Works2\2023_0101_6조_crawling.zip"/>
+			<item value="C:\Works2\2023_0101_6조.zip"/>
+		</list>
+	</section>
+	<section name="SmartImportWizard">
+		<item key="SmartImportRootWizardPage.STORE_HIDE_ALREADY_OPEN" value="false"/>
+		<item key="SmartImportRootWizardPage.STORE_CLOSE_IMPORTED" value="false"/>
+		<item key="SmartImportRootWizardPage.STORE_NESTED_PROJECTS" value="true"/>
+		<item key="SmartImportRootWizardPage.STORE_CONFIGURE_NATURES" value="true"/>
+		<list key="org.eclipse.ui.internal.wizards.datatransfer.SmartImportRootWizardPage.knownSources">
+			<item value="C:\Works2\ProjectF"/>
+			<item value="C:\Works2\Project (2)"/>
+			<item value="C:\Works2"/>
 		</list>
 	</section>
 </section>

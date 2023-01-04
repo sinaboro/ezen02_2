@@ -1,0 +1,43 @@
+#section {
+	width: 971px;
+	margin: 50px auto;
+}
+
+#section h2 {
+	text-align: center;
+	margin-bottom: 50px;
+}
+
+table {
+	width: 100%;
+	border-collapse: collapse;
+	font-size: 14px;
+	line-height: 24px;
+}
+
+#cover {
+	width: 220px;
+	height: 300px;
+	padding: 20px 15px 10px 10px;
+}
+
+table tr td, th {
+	border-bottom: 1px solid #c7d7f0;
+}
+table tr:nth-child(1) {
+	border-top: 2px solid #8c8ec8;
+}
+table tr:last-child {
+	border-bottom: 2px solid #8c8ec8;
+	border-top: none;
+	margin-bottom: 10px;
+}
+
+table a {
+	color: black;
+}
+
+table a:hover {
+	text-decoration: underline;
+	color: #8c8ce8;
+}

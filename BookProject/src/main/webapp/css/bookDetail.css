@@ -1,0 +1,76 @@
+#bookdetail {
+   width: 1150px;
+   margin: 0 auto;
+}
+#bookdetail #book1 {
+   width: 100%;
+   /* border-bottom: 1px solid #8c8ec8; */
+   /* border-top: 1px solid #8c8ec8; */
+   text-align: center;
+   height: 130px;
+}
+#bookdetail #book1 h2 {
+   color: black;
+   margin-top: 50px;
+   margin-bottom: -50px;
+}
+#bookdetail #book2 {
+   width: 100%;
+   height: 500px;
+   padding-top: 100px;
+   border-top: 1px solid #8c8ce8;
+   border-bottom: 1px solid #8c8ce8;
+   margin-top: -20px;
+   margin-bottom: 30px;
+}
+#bookdetail #book2 img {
+   width: 27%;
+   height: 400px;
+   float: left;
+   margin-left: 100px;
+   box-shadow: 3px 3px 3px 3px #c9c9c9;
+}
+
+#bookdetail #book2 #book2text {
+   text-align: left;
+   float: right;
+   width: 50%;
+   height: 500px;
+   padding: 10px;
+   line-height: 28px;
+}
+
+#wrap #button {
+   border: 1px solid #999999;
+   cursor: pointer;
+   background-color: white;
+   padding: 10px 15px;
+   margin-left: 5px;
+   margin-bottom: 50px;
+}
+#wrap #button:hover {
+   background-color: #8c8ce8;
+   color: white;
+}
+
+#cart {
+	width: 60px;
+	height: 60px;
+	/* border: 1px solid #8c8ce8; */
+	position: absolute;
+	text-align: center;
+	margin-right: 20px;
+	margin-left: -30px;
+	margin-top: -20px;
+}
+
+#cart:hover {
+	color: black;
+	text-decoration: none;
+}
+
+#cart img {
+	width: 25px;
+	height: 25px;
+	margin-top: 2px;
+}

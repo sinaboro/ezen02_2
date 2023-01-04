@@ -1,0 +1,51 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+#container {
+	/* border: 1px solid black; */
+	width: 400px;
+	height: 400px;
+	margin: 100px auto 0;
+	text-align: center;
+}
+
+#container h2 {
+	margin: 0 0 25px 25px;
+	width: 400px;
+	height: 100px;
+}
+
+table #id {
+	width: 400px;
+	height: 50px;
+}
+
+table #pass {
+	width: 400px;
+	height: 50px;
+}
+
+table #login {
+	width: 400px;
+	height: 50px;
+	border-radius: 7px;
+	background-color: grey;
+	color: white;
+	border: none;
+	font-size: 16px;
+	font-weight: bold;
+	margin: 20px;
+}
+
+table #join {
+	width: 400px;
+	height: 50px;
+	background-color: white;
+	color: purple;
+	border: 1px solid purple;
+	border-radius: 7px;
+	font-size: 16px;
+	font-weight: bold;
+}

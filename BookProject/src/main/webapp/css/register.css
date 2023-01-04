@@ -1,0 +1,98 @@
+/* wrap */
+#wrap h2 {
+	margin-top: 50px;
+	margin-bottom: 50px;
+}
+
+#wrap table, th, td {
+	border-collapse: collapse;
+}
+
+#wrap table tr {
+	height: 60px;
+}
+
+#wrap table tr th, td {
+	border-bottom: 1px solid #dddddd;
+}
+table tr:first-child {
+	border-top: 2px solid #8c8ce8;
+}
+table tr:last-child {
+	border-bottom: 2px solid #8c8ce8;
+}
+
+#wrap table th {
+	width: 150px;
+	background-color: #8c8ce8;
+	color: white;
+	font-size: 14px;
+}
+
+#wrap table td {
+	padding-left: 10px;
+}
+
+#wrap table tr input {
+	height: 30px;
+	padding-left: 10px;
+}
+
+#wrap table tr input:focus {
+	outline: none;
+	border: 2px solid #8c8ce8;
+}
+
+#wrap table textarea {
+	resize: none;
+	margin-top: 5px;
+	padding: 3px;
+}
+
+#wrap table textarea:focus {
+	outline: none;
+	border: 2px solid #8c8ce8;
+}
+#wrap table tr:nth-child(6) {
+	height: 200px;
+}
+
+#upload {
+	width: 150px;
+	height: 30px;
+	background-color: white;
+	border: 1px solid #999999;
+	border-radius: 10px;
+	cursor: pointer;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	font-size: 14px;
+}
+
+#upload:hover {
+	background-color: #f4f4f4;
+	border: 2px solid #f4f4f4;
+}
+
+#file {
+	display: none;
+}
+
+#category {
+	font-size: 14px;
+}
+
+#button {
+	background-color: white;
+	border: 1px solid #999999;
+	padding: 10px 15px;
+	margin-left: 5px;
+	margin-bottom: 100px;
+	cursor: pointer;
+}
+
+#button:hover {
+	background-color: #8c8ce8;
+	color: white;
+}
