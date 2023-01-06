@@ -1,23 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-    <fullyQualifiedTypeName name="org.springframework.web.bind.annotation.RequestMapping"/>
-    <fullyQualifiedTypeName name="org.springframework.web.bind.annotation.RequestMethod"/>
-    <fullyQualifiedTypeName name="org.springframework.web.bind.annotation.PathVariable"/>
-    <fullyQualifiedTypeName name="org.springframework.http.HttpStatus"/>
-    <fullyQualifiedTypeName name="org.springframework.http.ResponseEntity"/>
-    <fullyQualifiedTypeName name="lombok.Data"/>
-    <fullyQualifiedTypeName name="lombok.AllArgsConstructor"/>
-    <fullyQualifiedTypeName name="java.util.List"/>
-    <fullyQualifiedTypeName name="org.zerock.domain.Criteria"/>
-    <fullyQualifiedTypeName name="org.zerock.domain.ReplyPageDTO"/>
-    <fullyQualifiedTypeName name="java.lang.Integer"/>
-    <fullyQualifiedTypeName name="org.springframework.stereotype.Component"/>
-    <fullyQualifiedTypeName name="org.aspectj.lang.annotation.Aspect"/>
-    <fullyQualifiedTypeName name="org.aspectj.lang.annotation.Before"/>
-    <fullyQualifiedTypeName name="org.junit.runner.RunWith"/>
-    <fullyQualifiedTypeName name="org.springframework.test.context.junit4.SpringJUnit4ClassRunner"/>
-    <fullyQualifiedTypeName name="org.springframework.test.context.ContextConfiguration"/>
-    <fullyQualifiedTypeName name="org.zerock.service.SampleService"/>
     <fullyQualifiedTypeName name="org.aspectj.lang.annotation.AfterThrowing"/>
     <fullyQualifiedTypeName name="org.aspectj.lang.ProceedingJoinPoint"/>
     <fullyQualifiedTypeName name="org.aspectj.lang.annotation.Around"/>
@@ -43,7 +25,6 @@
     <fullyQualifiedTypeName name="java.lang.Exception"/>
     <fullyQualifiedTypeName name="javax.servlet.RequestDispatcher"/>
     <fullyQualifiedTypeName name="com.ezen.ex01.Master"/>
-    <fullyQualifiedTypeName name="unit02.A.B"/>
     <fullyQualifiedTypeName name="unit04.RemoteControl"/>
     <fullyQualifiedTypeName name="unit04.ReChild"/>
     <fullyQualifiedTypeName name="unit04.Cal"/>
@@ -52,12 +33,31 @@
     <fullyQualifiedTypeName name="unit04.Tire"/>
     <fullyQualifiedTypeName name="unit04.Car"/>
     <fullyQualifiedTypeName name="unit05.Calculable"/>
-    <fullyQualifiedTypeName name="java.util.Arrays"/>
     <fullyQualifiedTypeName name="java.util.function.IntUnaryOperator"/>
     <fullyQualifiedTypeName name="unit06.Calcuable"/>
     <fullyQualifiedTypeName name="unit06.Computer"/>
-    <fullyQualifiedTypeName name="java.lang.FunctionalInterface"/>
     <fullyQualifiedTypeName name="unit06.Person"/>
     <fullyQualifiedTypeName name="unit06.Creatable1"/>
     <fullyQualifiedTypeName name="unit06.Member"/>
+    <fullyQualifiedTypeName name="unit01.A.B"/>
+    <fullyQualifiedTypeName name="unit02.A.B"/>
+    <fullyQualifiedTypeName name="unit04_1.Test"/>
+    <fullyQualifiedTypeName name="java.lang.Override"/>
+    <fullyQualifiedTypeName name="java.util.stream.IntStream"/>
+    <fullyQualifiedTypeName name="java.lang.String"/>
+    <fullyQualifiedTypeName name="unit08.Function"/>
+    <fullyQualifiedTypeName name="java.lang.FunctionalInterface"/>
+    <fullyQualifiedTypeName name="org.graalvm.compiler.core.common.type.ArithmeticOpTable.Op"/>
+    <fullyQualifiedTypeName name="unit08.Operator"/>
+    <fullyQualifiedTypeName name="java.util.function.BiFunction"/>
+    <fullyQualifiedTypeName name="java.util.function.Function"/>
+    <fullyQualifiedTypeName name="java.util.function.Predicate"/>
+    <fullyQualifiedTypeName name="java.util.stream.Stream"/>
+    <fullyQualifiedTypeName name="java.util.Comparator"/>
+    <fullyQualifiedTypeName name="java.lang.Comparable"/>
+    <fullyQualifiedTypeName name="java.lang.Integer"/>
+    <fullyQualifiedTypeName name="java.util.Arrays"/>
+    <fullyQualifiedTypeName name="java.util.ArrayList"/>
+    <fullyQualifiedTypeName name="java.util.List"/>
+    <fullyQualifiedTypeName name="java.util.OptionalDouble"/>
 </qualifiedTypeNameHistroy>
